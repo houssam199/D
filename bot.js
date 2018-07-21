@@ -1,8 +1,6 @@
-const Discord = require('discord.js');
-const client = new Discord.Client()
-client.on('ready' , () => {
-	console.log('iam Online');
-})
+  const Discord = require("discord.js");
+const client = new Discord.Client();
+
 client.on('message', message => {
 if (message.content === '!spam') {
       let count = 0;
